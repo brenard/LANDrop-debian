@@ -1,0 +1,5 @@
+landrop (0.4.0-1) unstable; urgency=medium
+
+  * Debian build of LANDrop 0.4.0
+
+ -- Benjamin Renard <brenard@easter-eggs.com>  Tue, 10 Aug 2021 11:21:55 +0200

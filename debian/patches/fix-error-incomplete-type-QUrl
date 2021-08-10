@@ -1,0 +1,13 @@
+Description: Fix error "incomplete type ‘QUrl’ used in nested name specifier" that make build failed on Buster.
+Origin: https://github.com/LANDrop/LANDrop/commit/b9675d7b9df5f79b7c6ab4c7b37cabd1ad28328c#diff-8d81a7896cf05cc2366961feea35802d8739ac10bbef20cfab1742a779979fed
+Author: tmacy <chen_tmacy@foxmail.com>
+--- a/LANDrop/filetransferreceiver.cpp
++++ b/LANDrop/filetransferreceiver.cpp
+@@ -36,6 +36,7 @@
+ #include <QJsonDocument>
+ #include <QJsonObject>
+ #include <QTimer>
++#include <QUrl>
+ 
+ #include "filetransferreceiver.h"
+ #include "settings.h"

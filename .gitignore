@@ -1,0 +1,9 @@
+debian/landrop
+debian/*substvars
+debian/*debhelper.log
+debian/*.debhelper
+debian/debhelper-build-stamp
+debian/files
+landrop*
+*~
+.*.swp

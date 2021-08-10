@@ -1,0 +1,15 @@
+Source: landrop
+Section: misc
+Priority: optional
+Build-Depends: debhelper, quilt, qt5-default | qtbase5-dev, libsodium-dev
+Maintainer: Benjamin Renard <brenard@easter-eggs.com>
+
+Package: landrop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Section: misc
+Priority: optional
+Description: Drop any files to any devices on your LAN
+  LANDrop is a cross-platform tool that you can use to conveniently
+  transfer photos, videos, and other types of files to other devices
+  on the same local network.
